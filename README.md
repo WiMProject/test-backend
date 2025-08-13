@@ -6,8 +6,8 @@ API sederhana untuk mengelola data user dengan Laravel 12. Mendukung operasi CRU
 
 1. **Clone dan setup**
    ```bash
-   git clone <repository-url>
-   cd backend_test
+   git clone https://github.com/WiMProject/test-backend.git
+   cd test-backend
    composer install
    cp .env.example .env
    php artisan key:generate
@@ -29,15 +29,25 @@ API sederhana untuk mengelola data user dengan Laravel 12. Mendukung operasi CRU
    ```bash
    php artisan serve
    ```
+   ```bash
+   # Jika Menggunakan Valet
+   valet park
+   ```
 
 4. **Akses dokumentasi Swagger**
    ```
    http://localhost:8000/api/documentation
+   
+   # Untuk Valet bisa mengguanakan url dibawah ini
+   http://test-backend.test/api/documentation
    ```
 
    **Atau langsung test API:**
    ```bash
    curl http://localhost:8000/api/users
+   
+   # Untuk Valet bisa mengguanakan url dibawah ini
+   http://test-backend.test/api/documentation
    ```
 
 ## 📋 API Endpoints
@@ -223,3 +233,4 @@ php artisan l5-swagger:generate
 ---
 
 **Status**: ✅ Siap digunakan
+**Build By** : Wildan Miladji
