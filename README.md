@@ -37,6 +37,7 @@ API sederhana untuk mengelola data user dengan Laravel 12. Mendukung operasi CRU
 4. **Akses dokumentasi Swagger**
    ```
    http://localhost:8000/api/documentation
+   
    # Untuk Valet bisa mengguanakan url dibawah ini
    http://test-backend.test/api/documentation
    ```
@@ -44,6 +45,7 @@ API sederhana untuk mengelola data user dengan Laravel 12. Mendukung operasi CRU
    **Atau langsung test API:**
    ```bash
    curl http://localhost:8000/api/users
+   
    # Untuk Valet bisa mengguanakan url dibawah ini
    http://test-backend.test/api/documentation
    ```
